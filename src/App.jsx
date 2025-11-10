@@ -1,11 +1,9 @@
 import './index.css';
-
+import Navbar from './components/Navbar.jsx';
 export default function App() {
   return (
     <>
-      <div>
-        <h1 className='text-3xl font-bold underline'>Hello ALL!</h1>
-      </div>
+      <Navbar />
     </>
   );
 }
