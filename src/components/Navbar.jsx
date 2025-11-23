@@ -1,8 +1,8 @@
 function Navbar(){
     return (
         <nav>
-        <div className='flex bg-gray-300 flex-col gap-2 justify-between items-center p-6'>
-          <div className='text-2xl font-bold border-b-2 border-black b-2'>
+        <div className='flex flex shadow-2xl text-white bg-zinc-900 gap-2 justify-around p-2 px-4 rounded-full items-center max-w-3xl mx-auto my-4'>
+          <div className='text-xl font-bold'>
             <h1>Personal page</h1>
           </div>
           <div >
@@ -13,6 +13,7 @@ function Navbar(){
               <li className="hover:underline cursor-pointer">blog</li>
             </ul>
           </div>
+		  <button className="bg-white text-black px-4 py-1 rounded-full hover:bg-gray-200">Lets start</button>
         </div>
       </nav>
     );
