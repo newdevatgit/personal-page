@@ -7,7 +7,7 @@ export const posts = [
     dateReadable: "Jan 10, 2025",
     readTime: "4 min read",
     tags: ["react", "portfolio"],
-    image: "/images/portfolio.jpg",
+    image: "src/assets/sample.jpg",
     url: "/blog/portfolio",
   },
   {
@@ -19,7 +19,7 @@ export const posts = [
     dateReadable: "Jan 15, 2025",
     readTime: "3 min read",
     tags: ["tailwind", "css"],
-    image: "/images/tailwind.jpg",
+    image: "src/assets/sample.jpg",
     url: "/blog/tailwind",
   },
   {
@@ -31,7 +31,7 @@ export const posts = [
     dateReadable: "Jan 15, 2025",
     readTime: "3 min read",
     tags: ["tailwind", "css"],
-    image: "/images/tailwind.jpg",
+    image: "src/assets/sample.jpg",
     url: "/blog/tailwind",
   },
   {
@@ -42,7 +42,7 @@ export const posts = [
     dateReadable: "Jan 10, 2025",
     readTime: "4 min read",
     tags: ["react", "portfolio"],
-    image: "/images/portfolio.jpg",
+    image: "src/assets/sample.jpg",
     url: "/blog/portfolio",
   }
 ];
