@@ -1,7 +1,7 @@
 function Navbar(){
     return (
         <nav>
-        <div className='flex flex shadow-2xl text-white bg-zinc-900 gap-2 justify-around p-2 px-4 rounded-full items-center max-w-3xl mx-auto my-4'>
+        <div className='flex flex shadow-xl/30 text-white bg-zinc-900 gap-2 justify-around p-2 px-4 rounded-full items-center max-w-3xl mx-auto my-4'>
           <div className='text-xl font-bold'>
             <h1>Personal page</h1>
           </div>

@@ -1,6 +1,9 @@
+import { Link } from 'react-router-dom';
+
 function BlogCard({ post }){
-	return(
-    <article className="bg-white/80 rounded-xl shadow-xl/20 hover:shadow-xl/30 transition-shadow duration-200 overflow-hidden">
+  return(
+  <Link to={post.url} className="no-underline text-inherit">
+  <article className="bg-white/80 rounded-xl shadow-xl/20 hover:shadow-xl/30 transition-shadow duration-200 overflow-hidden">
       <div className="h-44 md:h-52 w-full p-4 overflow-hidden">
         <img
           src={post.image}
@@ -28,7 +31,8 @@ function BlogCard({ post }){
 
       </div>
     </article>
-	)
+    </Link>
+    )
 }
 
 export default BlogCard;
